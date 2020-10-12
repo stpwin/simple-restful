@@ -185,7 +185,7 @@ Response:
 ```
 
 **Get course by id:** <br>
-`GET localhost:port/api/course/2` << change id<br>
+`GET localhost:port/api/courses/2` << change id<br>
 Reponse:
 
 ```
@@ -201,7 +201,7 @@ Reponse:
 ```
 
 **Search course name:** <br>
-`GET localhost:port/api/course/search/ฟรี` << search text<br>
+`GET localhost:port/api/courses/search/ฟรี` << search text<br>
 Reponse:
 
 ```
@@ -219,7 +219,7 @@ Reponse:
 ```
 
 **Update course:**<br>
-`PUT localhost:port/api/course/2` << change id<br>
+`PUT localhost:port/api/courses/2` << change id<br>
 with JSON body
 
 ```
@@ -240,7 +240,7 @@ Response:
 ```
 
 **Delete course:** <br>
-`DELETE localhost:port/api/course/1` << change id<br>
+`DELETE localhost:port/api/courses/1` << change id<br>
 Response:
 
 ```
