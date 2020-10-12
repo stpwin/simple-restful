@@ -4,8 +4,11 @@
 
 - Node.js
 - PostgreSQL
+  <br>
 
 ## Installation:
+
+### For local
 
 1. Install Node.js
 2. Install PostgreSQL
@@ -14,6 +17,21 @@
 5. Run command `npm i` in cloned directory and wait for installing dependency
 6. Initialize database by uncomment `models.teacher.sync({ force: true })` [Line 5] in files `express/routes/teachers.js` and `express/routes/courses.js`
 7. Run command `npm start` to start service
+
+### Docker
+
+1. Clone this repository to your computer
+2. Open Command Prompt/Terminal and set working directory to cloned directory
+3. Run command `docker compose up -d`
+
+## Usages:
+
+- default port is 3000<br>
+- test connection by go to localhost:3000/ and you can see response
+
+```
+{"message":"Hello! this is a simple restful api service for node.js"}
+```
 
 ## Request list:
 
