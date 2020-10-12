@@ -105,5 +105,5 @@ dist
 
 .vscode
 .dockerignore
-Dockerfile*
-docker-compose*
+# Dockerfile*
+# docker-compose*
