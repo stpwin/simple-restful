@@ -1,0 +1,30 @@
+{
+  "name": "simple-restful",
+  "version": "1.0.0",
+  "description": "A simple restful api for node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stpwin/simple-restful.git"
+  },
+  "author": "stpwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stpwin/simple-restful/issues"
+  },
+  "homepage": "https://github.com/stpwin/simple-restful#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
