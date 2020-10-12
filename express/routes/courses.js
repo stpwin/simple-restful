@@ -2,6 +2,8 @@ const { models } = require("../../sequelize");
 const { Op } = require("sequelize");
 const { getIdParam, getTextParam } = require("../helpers");
 
+// models.course.sync({ force: true });
+
 async function getAll(req, res) {
   const courses = await models.course.findAll();
   res.json(courses);
