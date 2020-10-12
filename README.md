@@ -1,6 +1,6 @@
 # A simple RESTFul api with Node.js
 
-## Requiments:
+## Requirements:
 
 - Node.js
 - PostgreSQL
